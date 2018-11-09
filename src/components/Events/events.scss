@@ -1,0 +1,384 @@
+.backgroundEvents {
+    background-image:url("http://res.cloudinary.com/scottisyoung/image/upload/v1521752711/Wolf%20Creek/skigroup.jpg");
+    background-size: cover;
+    margin-top: 150px;
+    height: 830px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backgroundevents {
+    margin-top: -80px;
+    height: 1550px;
+    width: 100%;
+    background-color: rgb(226, 219, 219); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgb(226, 219, 219),#4e4e4e); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgb(226, 219, 219), #4e4e4e); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgb(226, 219, 219), #4e4e4e); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgb(226, 219, 219), #4e4e4e); /* Standard syntax */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.eventsTitleParent {
+    margin-top: -50px;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    text-shadow: 1px 1px 1px rgb(49, 49, 49);
+}
+
+.parentingEvent {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.eventsInfo {
+    display: flex;
+    justify-content: flex-start;
+    align-items:  flex-start;
+    flex-direction: row;
+    color: #1c8d8d;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.8em;
+    font-weight: 500;
+    text-shadow: 1px 0.5px rgb(44, 44, 44);
+    letter-spacing: 0.1vh;
+}
+
+.eventList {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-right: 20px;
+    width: 200px;
+    height: 400px;
+    margin-left: 80px;
+}
+
+.centerevent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 200px;
+    font-size: 22px;
+    line-height: 1em;
+    text-align: center;
+}
+
+.centParent2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 200px;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: rgb(185, 113, 65);
+}
+
+.evList {
+    margin-top: 5px;
+    width: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    flex-direction: column;
+
+        li {
+            list-style: none;
+            font-size: 16px;
+            line-height: 1.3em;
+        }
+
+        span {
+            color: rgb(255, 51, 0);
+            margin-right: 20px;
+        }
+
+}
+
+.evList2 {
+    margin-top: 5px;
+    width: 350px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    flex-direction: column;
+
+        li {
+            list-style: none;
+            font-size: 16px;
+            line-height: 1.3em;
+        }
+        span {
+            color: rgb(255, 51, 0);
+            margin-right: 15px;
+        }
+}
+
+
+.imgalign1 {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-left: 10px;
+    margin-right: 80px;
+    width: 200px;
+    height: 400px;
+    opacity: 0.7;
+        &:hover {
+             opacity: 1; 
+        }
+
+        img {
+            width: 200px;
+            height: 250px;
+            box-shadow: 1px 1px 5px 1px rgb(43, 43, 43);
+        }
+}
+
+.imgalign2 {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-right: 80px;
+    margin-left: 30px;
+    width: 200px;
+    height: 400px;
+    opacity: 0.7;
+        &:hover {
+             opacity: 1; 
+        }
+
+        img {
+            width: 200px;
+            height: 120px;
+            box-shadow: 1px 1px 5px 1px rgb(43, 43, 43);
+        }
+}
+
+.course2 {
+    margin-top: 10px;
+}
+
+.calendar {
+    margin-top: -50px;
+    box-shadow: 1px 1px 10px 1px rgb(43, 43, 43);
+}
+
+.backgoundfooterevents {
+    margin-top: -100px;
+    background-image:url("http://res.cloudinary.com/scottisyoung/image/upload/v1521752711/Wolf%20Creek/ski-race.jpg");
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    color: rgb(13, 56, 94);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.backTitle {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 140px;
+    margin-left: 60px;
+    color: white;
+    font-size: 60px;
+    text-shadow: 1px 1px 1px black;
+}
+
+@media (max-width: 1850px) {
+    .eventList {
+        width: 180px;
+        margin-right: 10px;
+        margin-left: 50px;
+    }
+    .imgalign1 
+    {
+        margin-right: 130px;
+        margin-left: 60px;
+        width: 100px;
+    }
+    .imgalign2 {
+        margin-right: 50px;
+        margin-left: 60px;
+        width: 100px;
+    }
+    
+}
+
+@media (max-width: 1650px) {
+    .parentingEvent {
+        margin-top: 20px;
+        margin-left: 60px;
+    }
+    .eventList {
+        width: 160px;
+        margin-right: 10px;
+        margin-left: 30px;
+    }
+    .imgalign1 
+    {
+        margin-right: 100px;
+        margin-left: 40px;
+        width: 100px;
+        img {
+            width: 150px;
+            height: 200px;
+        }
+    }
+    .imgalign2 {
+        margin-right: 50px;
+        margin-left: 50px;
+        width: 100px;
+        img {
+            width: 150px;
+            height: 80px;
+        }
+    }
+
+    .evList {
+        margin-top: -5px;
+        li {
+            font-size: 14px;
+            line-height: 1.2em;
+        }
+    }
+    .evList2 {
+        margin-left: 50px;
+        margin-top: -5px;
+        li {
+            list-style: none;
+            font-size: 14px;
+            line-height: 1.2em;
+        }
+
+        .calendar {
+            margin-top: -100px;
+        }
+    }
+    
+}
+    
+@media (max-width: 1450px) {
+    .parentingEvent {
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-left: 80px;
+    }
+    .eventList {
+        width: 160px;
+        margin-right: 5px;
+        margin-left: 25px;
+    }
+    .imgalign1 
+    {
+        margin-right: 100px;
+        margin-left: 40px;
+        width: 80px;
+        img {
+            width: 130px;
+            height: 180px;
+        }
+    }
+    .imgalign2 {
+        margin-right: 50px;
+        margin-left: 50px;
+        width: 100px;
+        img {
+            width: 130px;
+            height: 80px;
+        }
+    }
+
+    .evList {
+        margin-top: -5px;
+        li {
+            font-size: 14px;
+            line-height: 1.2em;
+        }
+    }
+    .evList2 {
+        margin-left: 50px;
+        margin-top: -5px;
+        li {
+            list-style: none;
+            font-size: 14px;
+            line-height: 1.2em;
+        }
+
+        .calendar {
+            margin-top: -130px;
+            width: 1200px;
+        }
+    }
+}
+
+@media (max-width: 1350px) {
+    .parentingEvent {
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-left: 100px;
+    }
+    .eventList {
+        width: 160px;
+        margin-right: 5px;
+        margin-left: 15px;
+    }
+    .imgalign1 
+    {
+        margin-right: 100px;
+        margin-left: 40px;
+        width: 80px;
+        img {
+            width: 130px;
+            height: 180px;
+        }
+    }
+    .imgalign2 {
+        margin-right: 50px;
+        margin-left: 50px;
+        width: 100px;
+        img {
+            width: 130px;
+            height: 80px;
+        }
+    }
+
+    .evList {
+        margin-top: -5px;
+        li {
+            font-size: 14px;
+            line-height: 1.2em;
+        }
+    }
+    .evList2 {
+        margin-left: 50px;
+        margin-top: -5px;
+        li {
+            list-style: none;
+            font-size: 14px;
+            line-height: 1.2em;
+        }
+
+        .calendar {
+            margin-top: -130px;
+            width: 1200px;
+        }
+    }
+}
+

@@ -1,0 +1,276 @@
+.shopBackground {
+  margin-top: 30px;
+  height: 850px;
+  width: 100%;
+  background-image: url("http://res.cloudinary.com/scottisyoung/image/upload/v1521752712/Wolf%20Creek/boarder.jpg");
+  background-size: cover; }
+
+.centerShopTitle {
+  margin-top: -50px;
+  color: white;
+  font-size: 60px;
+  text-shadow: 1px 1px 1px #313131; }
+
+.shopParent {
+  background: url("http://res.cloudinary.com/scottisyoung/image/upload/v1521752711/Wolf%20Creek/snow.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 1000px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column; }
+
+.shopItemsParent {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap; }
+
+.shopDivs {
+  transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -o-transition: 1s;
+  height: 300px;
+  width: 330px;
+  background: rgba(46, 42, 42, 0.96);
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#616060, #196496, #2c2b2b);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#616060, #196496, #616060);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#616060, #196496, #616060);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#292828, #196496, #292828);
+  /* Standard syntax */
+  box-shadow: 2px 2px 1px rgba(56, 56, 56, 0.719);
+  margin-top: 0px;
+  margin-right: 50px;
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 5px; }
+  .shopDivs:hover {
+    transform: rotatey(-180deg);
+    -webkit-transform: rotatey(-180deg);
+    -moz-transform: rotatey(-180deg);
+    -ms-transform: rotatey(-180deg);
+    -o-transform: rotatey(-180deg); }
+
+.shopDivs1 {
+  transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -o-transition: 1s;
+  height: 300px;
+  width: 330px;
+  background: rgba(46, 42, 42, 0.96);
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#616060, #196496, #2c2b2b);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#616060, #196496, #616060);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#616060, #196496, #616060);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#292828, #196496, #292828);
+  /* Standard syntax */
+  box-shadow: 2px 2px 1px rgba(56, 56, 56, 0.719);
+  display: inline-block;
+  margin-top: 30px;
+  margin-right: 50px;
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 5px; }
+  .shopDivs1:hover {
+    transform: rotatey(-180deg);
+    -webkit-transform: rotatey(-180deg);
+    -moz-transform: rotatey(-180deg);
+    -ms-transform: rotatey(-180deg);
+    -o-transform: rotatey(-180deg); }
+
+.font, .back {
+  position: fixed;
+  height: 90%;
+  width: 90%;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden; }
+
+.front {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  position: relative;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 900;
+  letter-spacing: 4px;
+  text-shadow: 1.5px 1.8px #1a1a1a;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden; }
+
+.back {
+  transform: rotatey(-180deg);
+  -webkit-transform: rotatey(-180deg);
+  -moz-transform: rotatey(-180deg);
+  -ms-transform: rotatey(-180deg);
+  -o-transform: rotatey(-180deg);
+  z-index: 1;
+  word-wrap: break-word;
+  line-height: 1em;
+  text-align: left;
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-shadow: 1px 1px 1px #242424;
+  font-size: 16px;
+  letter-spacing: .05em;
+  margin-top: 2vh;
+  list-style-type: none;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  overflow: auto;
+  position: fixed;
+  height: 90%;
+  width: 90%; }
+
+.purchaseParent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px; }
+
+.purchase {
+  position: absolute;
+  bottom: 20px;
+  height: 50px;
+  width: 150px;
+  border-radius: 5px;
+  background-color: #363636;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-family: 'Buda', cursive;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 400; }
+  .purchase:hover {
+    background-color: #10da10; }
+
+.footerShopBackground {
+  height: 700px;
+  width: 100%;
+  background-image: url("http://res.cloudinary.com/scottisyoung/image/upload/v1521752713/Wolf%20Creek/board-fence.jpg");
+  background-size: cover;
+  opacity: 0.7; }
+
+@media (max-width: 1850px) {
+  .shopDivs {
+    margin-right: 20px;
+    margin-left: 20px; }
+  .shopDivs1 {
+    margin-right: 20px;
+    margin-left: 20px; } }
+
+@media (max-width: 1550px) {
+  .shopDivs {
+    margin-right: 5px;
+    margin-left: 5px; }
+  .shopDivs1 {
+    margin-right: 5px;
+    margin-left: 5px; } }
+
+@media (max-width: 1500px) {
+  .shopDivs {
+    margin-right: 5px;
+    margin-left: 5px;
+    height: 280px;
+    width: 310px; }
+  .shopDivs1 {
+    margin-right: 5px;
+    margin-left: 5px;
+    height: 280px;
+    width: 310px; }
+  .back {
+    font-size: 15px; } }
+
+@media (max-width: 1400px) {
+  .shopDivs {
+    margin-right: 5px;
+    margin-left: 5px;
+    height: 280px;
+    width: 290px; }
+  .shopDivs1 {
+    margin-right: 5px;
+    margin-left: 5px;
+    height: 280px;
+    width: 290px; }
+  .back {
+    font-size: 14px; } }
+
+@media (max-width: 1300px) {
+  .shopDivs {
+    margin-right: 5px;
+    margin-left: 5px;
+    height: 280px;
+    width: 270px; }
+  .shopDivs1 {
+    margin-right: 5px;
+    margin-left: 5px;
+    height: 280px;
+    width: 270px; }
+  .back {
+    font-size: 14px; } }
+
+@media (max-width: 1200px) {
+  .shopDivs {
+    margin-right: 5px;
+    margin-left: 5px;
+    height: 280px;
+    width: 260px; }
+  .shopDivs1 {
+    margin-right: 5px;
+    margin-left: 5px;
+    height: 280px;
+    width: 260px; }
+  .back {
+    font-size: 14px; } }
+
+@media (max-width: 1100px) {
+  .shopDivs {
+    margin-right: 5px;
+    margin-left: 5px;
+    height: 280px;
+    width: 250px; }
+  .shopDivs1 {
+    margin-right: 5px;
+    margin-left: 5px;
+    height: 280px;
+    width: 250px; }
+  .back {
+    font-size: 13.5px; } }

@@ -1,0 +1,71 @@
+.footer {
+        height: 180px;
+        width: 100%;
+        position: relative;
+        clear: both;
+        background: rgba(27, 24, 24, 0.96);
+            background: rgba(27, 24, 24, 0.96); /* For browsers that do not support gradients */
+            background: -webkit-linear-gradient(#444343, black); /* For Safari 5.1 to 6.0 */
+            background: -o-linear-gradient( #444343), black; /* For Opera 11.1 to 12.0 */
+            background: -moz-linear-gradient( #444343, black); /* For Firefox 3.6 to 15 */
+            background: linear-gradient( #444343, black); /* Standard syntax */
+        overflow: hidden;
+}
+
+.organizeFoot {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.footerList {
+    margin-right: 100px;
+}
+
+.footLink {
+    font-size: 1.2em;
+    text-decoration: none;
+    list-style-type: none;
+    color: #e5e7e7;
+    font-family: 'Open Sans Condensed', sans-serif;
+        &:hover {
+            color: #0bf8ec;
+            font-weight: 500;
+        }
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.socialLink {
+    height: 50px;
+    width: 50px;
+    margin-right: 40px;
+    text-decoration: none;  
+}
+
+.Link {
+    text-decoration: none;
+    color: #e5e7e7;
+    text-shadow: 1px 1px #5C5757;
+    letter-spacing: 3px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+

@@ -1,0 +1,273 @@
+.CartBackground {
+  background-image: url("http://res.cloudinary.com/scottisyoung/image/upload/v1521752715/Wolf%20Creek/mountain.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  overflow: auto; }
+
+.emptyParent {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
+
+.emptyCart {
+  margin-top: 300px;
+  margin-bottom: -150px;
+  background-color: rgba(0, 0, 0, 0.692);
+  box-shadow: 2px 2px 1px rgba(56, 56, 56, 0.719);
+  border-radius: 10px;
+  height: 200px;
+  width: 900px;
+  color: white;
+  cursor: pointer;
+  font-size: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Buda', cursive; }
+  .emptyCart:hover {
+    background-color: #3068cc;
+    font-weight: 400;
+    color: #eef0f1;
+    text-shadow: 1px 1.5px #242424;
+    box-shadow: 2px 2px 1px rgba(44, 44, 44, 0.842); }
+
+.spaceKeeper {
+  margin-top: 220px; }
+
+.CartParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -180px; }
+
+.CartName {
+  height: 100px;
+  width: 400px;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0.692);
+  text-shadow: 1px 1.5px #242424;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.5em;
+  font-weight: 700;
+  font-family: 'Buda', cursive;
+  text-align: center;
+  box-shadow: 2px 2px 1px rgba(44, 44, 44, 0.842); }
+
+.itemspan {
+  color: #0299fd;
+  text-shadow: 1px 1.5px #242424;
+  font-family: 'Julius Sans One', sans-serif; }
+
+.CartDescription {
+  height: 100px;
+  width: 400px;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0.692);
+  text-shadow: 1px 1.5px #242424;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.5em;
+  font-weight: 700;
+  font-family: 'Buda', cursive;
+  text-align: center;
+  box-shadow: 2px 2px 1px rgba(44, 44, 44, 0.842); }
+
+.CartPrice {
+  height: 100px;
+  width: 150px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0.692);
+  text-shadow: 1px 1.5px #242424;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.5em;
+  font-weight: 700;
+  font-family: 'Buda', cursive;
+  text-align: center;
+  box-shadow: 2px 2px 1px rgba(44, 44, 44, 0.842); }
+
+.QuantityCart {
+  height: 100px;
+  width: 150px;
+  font-size: 1.1em;
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0.692);
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  text-shadow: 1px 1.5px #242424;
+  font-family: 'Julius Sans One', sans-serif;
+  box-shadow: 2px 2px 1px rgba(44, 44, 44, 0.842); }
+
+.number {
+  margin-top: 10px;
+  text-align: center; }
+
+input {
+  width: 50px;
+  height: 30px;
+  font-size: 16px; }
+
+.RemoveCart {
+  height: 50px;
+  width: 120px;
+  margin-top: -50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 0.5vh;
+  background-color: #3068cc;
+  box-shadow: 2px 2px 1px rgba(44, 44, 44, 0.842);
+  text-shadow: 1px 1px 1px #242424;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Buda', cursive;
+  cursor: pointer; }
+  .RemoveCart:hover {
+    background-color: #f11202; }
+
+.remove {
+  color: white;
+  font-family: 'Buda', cursive; }
+
+.TotalParent {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px; }
+
+.CartTotal {
+  height: 100px;
+  width: 200px;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 150px;
+  border-radius: 5px;
+  background-color: #3068cc;
+  text-shadow: 1px 1.5px #242424;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.8em;
+  font-weight: 700;
+  font-family: 'Buda', cursive;
+  text-align: center;
+  box-shadow: 2px 2px 1px rgba(44, 44, 44, 0.842); }
+
+.cartTotal {
+  width: 350px;
+  font-size: 3em;
+  height: 100px;
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-bottom: 150px;
+  border-radius: 5px;
+  background-color: #3068cc;
+  text-shadow: 1px 1.5px #242424;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.5em;
+  font-weight: 700;
+  overflow: auto;
+  font-family: 'Buda', cursive;
+  text-align: center;
+  box-shadow: 2px 2px 1px rgba(44, 44, 44, 0.842); }
+
+.total {
+  height: 100px;
+  width: 200px;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 150px;
+  border-radius: 5px;
+  background-color: #3068cc;
+  text-shadow: 1px 1.5px #242424;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.5em;
+  font-weight: 700;
+  font-family: 'Buda', cursive;
+  text-align: center;
+  box-shadow: 2px 2px 1px rgba(44, 44, 44, 0.842); }
+
+@media (max-width: 1600px) {
+  .CartName {
+    width: 250px;
+    font-size: 1.2em; }
+  .CartDescription {
+    width: 350px;
+    font-size: 1.2em; }
+  .CartPrice {
+    width: 120px;
+    font-size: 1.2em; }
+  .QuantityCart {
+    width: 120px;
+    font-size: 1em; }
+  .RemoveCart {
+    width: 120px; }
+  .CartTotal {
+    width: 150px;
+    height: 80px; }
+  .cartTotal {
+    width: 150px;
+    height: 80px; }
+  .total {
+    width: 150px;
+    height: 80px; } }
+
+@media (max-width: 1200px) {
+  .CartName {
+    width: 200px;
+    font-size: 1.1em; }
+  .CartDescription {
+    width: 320px;
+    font-size: 1.1em; }
+  .CartPrice {
+    width: 100px;
+    font-size: 1.1em; }
+  .QuantityCart {
+    width: 100px;
+    font-size: .8em; }
+  .RemoveCart {
+    width: 100px; }
+  .CartTotal {
+    width: 130px;
+    height: 60px; }
+  .cartTotal {
+    width: 130px;
+    height: 60px; }
+  .total {
+    width: 130px;
+    height: 60px; } }

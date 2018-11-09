@@ -1,0 +1,245 @@
+.navbar {
+  height: 180px;
+  width: 100%;
+  position: fixed;
+  background: rgba(27, 24, 24, 0.96);
+  background: rgba(27, 24, 24, 0.96);
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(black, #444343);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(black, #444343);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(black, #444343);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(black, #444343);
+  /* Standard syntax */
+  z-index: 200; }
+
+.navParent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  position: relative; }
+  .navParent .logo {
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: -80px;
+    left: 110px; }
+  .navParent .logoTitle {
+    position: absolute;
+    top: 100px;
+    left: 110px;
+    font-size: 1.6em;
+    color: #1396e2;
+    font-weight: 700;
+    text-shadow: 1px 1.5px #242424;
+    letter-spacing: 1.5px;
+    font-family: 'Julius Sans One', sans-serif; }
+    .navParent .logoTitle span {
+      font-size: 1.2em; }
+  .navParent .navLinkParent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 350px; }
+  .navParent .navLink {
+    font-size: 1.2em;
+    font-weight: 400;
+    margin: 10px;
+    margin-top: 100px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .navParent .Link {
+    text-decoration: none;
+    color: #e6f0f0;
+    text-shadow: 1px 1.5px #242424;
+    letter-spacing: 3px;
+    font-family: 'Open Sans Condensed', sans-serif; }
+    .navParent .Link:hover {
+      color: #0bf8ec;
+      font-weight: 500;
+      transition: 1.5s; }
+
+.navLink1 {
+  margin-left: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  font-size: 1.1em;
+  font-weight: 500;
+  margin-top: 85px;
+  text-shadow: 1px 1.5px #242424; }
+
+.navLink2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  font-size: 1.1em;
+  font-weight: 500;
+  margin-top: 85px; }
+
+.auth1 {
+  color: #1883c2;
+  text-decoration: none;
+  font-family: 'Open Sans Condensed', sans-serif;
+  letter-spacing: 3px;
+  font-size: 1.1em; }
+  .auth1:hover {
+    color: #0bf8ec;
+    font-weight: 500; }
+
+.auth2 {
+  color: #1883c2;
+  text-decoration: none;
+  font-family: 'Open Sans Condensed', sans-serif;
+  letter-spacing: 3px;
+  font-size: 1.1em; }
+  .auth2:hover {
+    color: #0bf8ec;
+    font-weight: 500; }
+
+.cart {
+  position: absolute;
+  margin-top: 42px;
+  margin-left: 820px; }
+
+.badgenumber {
+  color: #00f8e8;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: -20px;
+  margin-left: 23px;
+  background-color: #164561;
+  height: 20px;
+  width: 20px;
+  border-radius: 10vh;
+  border: 1px solid silver;
+  box-shadow: 0.3px 0.3px 0.5px #dfdfdf;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+@media (max-width: 1850px) {
+  .navParent .logoTitle {
+    left: 60px; }
+  .navParent .navLinkParent {
+    margin-left: 340px; }
+  .navParent .navLink {
+    margin: 10px;
+    margin-top: 100px;
+    width: 160px; }
+  .navLink1 {
+    margin-left: 140px; }
+  .cart {
+    margin-left: 800px; } }
+
+@media (max-width: 1750px) {
+  .navParent .logoTitle {
+    left: 30px; }
+  .navParent .navLinkParent {
+    margin-left: 300px; }
+  .navParent .navLink {
+    margin: 10px;
+    margin-top: 100px;
+    width: 160px; }
+  .navLink1 {
+    margin-left: 100px; }
+  .cart {
+    margin-left: 770px; } }
+
+@media (max-width: 1650px) {
+  .navParent .logoTitle {
+    left: 30px; }
+  .navParent .navLinkParent {
+    margin-left: 260px; }
+  .navParent .navLink {
+    margin: 10px;
+    margin-top: 100px;
+    width: 160px; }
+  .navLink1 {
+    margin-left: 60px; }
+  .cart {
+    margin-left: 740px; } }
+
+@media (max-width: 1550px) {
+  .navParent .logoTitle {
+    left: 30px; }
+  .navParent .navLinkParent {
+    margin-left: 320px; }
+  .navParent .navLink {
+    margin: 10px;
+    margin-top: 100px;
+    width: 120px; }
+  .navLink1 {
+    margin-left: 100px; }
+  .cart {
+    margin-left: 680px; } }
+
+@media (max-width: 1450px) {
+  .navParent .logoTitle {
+    left: 30px; }
+  .navParent .navLinkParent {
+    margin-left: 280px; }
+  .navParent .navLink {
+    margin: 10px;
+    margin-top: 100px;
+    width: 120px; }
+  .navLink1 {
+    margin-left: 60px; }
+  .cart {
+    margin-left: 630px; } }
+
+@media (max-width: 1350px) {
+  .navParent .logoTitle {
+    left: 30px; }
+  .navParent .navLinkParent {
+    margin-left: 290px; }
+  .navParent .navLink {
+    margin: 10px;
+    margin-top: 100px;
+    width: 100px; }
+  .navLink1 {
+    margin-left: 40px; }
+  .cart {
+    margin-left: 580px; } }
+
+@media (max-width: 1250px) {
+  .navParent .logoTitle {
+    left: 30px; }
+  .navParent .navLinkParent {
+    margin-left: 280px; }
+  .navParent .navLink {
+    margin: 10px;
+    margin-top: 100px;
+    width: 80px; }
+  .navLink1 {
+    margin-left: 40px; }
+  .cart {
+    margin-left: 520px; } }
+
+@media (max-width: 1150px) {
+  .navParent .logoTitle {
+    left: 30px; }
+  .navParent .navLinkParent {
+    margin-left: 300px; }
+  .navParent .navLink {
+    margin: 10px;
+    margin-top: 100px;
+    width: 80px; }
+  .navLink1 {
+    margin-left: 50px;
+    width: 60px; }
+  .navLink2 {
+    width: 60px; }
+  .cart {
+    margin-left: 520px; } }
